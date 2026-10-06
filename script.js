@@ -26,7 +26,7 @@ function render() {
     noteCount.textContent = "You have " + notes.length + " notes.";
   }
 
-  // Search
+  // Add localStorage and search
   const search = searchInput.value.trim().toLowerCase();
   const visible = notes.filter(function (note) {
     return note.text.toLowerCase().includes(search);
