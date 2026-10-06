@@ -17,7 +17,7 @@ function saveNotes() {
 function render() {
   notesList.textContent = "";
 
-  // Count message
+  // Add validation count
   if (notes.length === 0) {
     noteCount.textContent = "You have no notes yet.";
   } else if (notes.length === 1) {
